@@ -19,6 +19,10 @@ namespace TestApp
         {
             return DateTime.Now.ToShortTimeString();
         }
+        public static string GetServerTime2()
+        {
+            return DateTime.Now.ToShortTimeString();
+        }
     }
     class Program
     {
